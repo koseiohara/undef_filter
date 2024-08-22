@@ -36,6 +36,8 @@ module undef_filter
                  & recstep=1            )  !! IN
 
         do t = 1, tnum
+            write(*,'("t =",I6," /",I6)') t, tnum
+
             call fread(input_file                    , &  !! INOUT
                      & replacer(1:nx,1:ny,1:nz)        )  !! OUT
 
