@@ -1,7 +1,10 @@
 *.bin
 *.dat
 *.grd
+*.png
+datacheck/
 *.mod
 *.o
 exe
-
+EXE
+result*.txt
