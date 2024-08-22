@@ -1,0 +1,7 @@
+*.bin
+*.dat
+*.grd
+*.mod
+*.o
+exe
+
