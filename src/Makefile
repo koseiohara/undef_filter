@@ -1,4 +1,4 @@
-EXE = exe
+EXE = EXE
 OBJS = NaNchecker.o fileio.o globals.o namelist.o undef_filter.o main.o
 
 FC = ifort
