@@ -5,7 +5,7 @@
 #PBS -j oe
 #PBS -l nodes=1:ppn=1
 
-VAR="TTSWR"
+VAR="VDFHR"
 NOW=$(date "+%Y%m%d_%H%M%S")
 RESULT="../output/result_${VAR}_${NOW}.txt"
 
